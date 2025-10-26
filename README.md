@@ -1,14 +1,29 @@
+# FCD_SLAM
+**FCD-VSLAM** is an enhanced and lightweight front-end framework based on **ORB-SLAM3**,  
+designed for **resource-constrained indoor environments**.  
+It introduces adaptive feature selection and descriptor optimization modules to improve robustness,  
+efficiency, and spatial uniformity of feature points.
+
+### 🔍 Main Contributions
+1. **Feature Convergence Adaptive Adjustment (FCA):**  
+   A dynamic thresholding mechanism adjusts FAST parameters according to scene texture,  
+   ensuring stable keypoint density and uniform spatial distribution across varying illumination and motion conditions.
+2. **Descriptor Direction-Distance Refinement:**  
+   Introduces a joint selection model that balances descriptor Hamming distance and orientation consistency,  
+   effectively reducing mismatches under rotation or motion blur.
+3. **Lightweight Front-End Integration:**  
+   Optimized detection pipeline compatible with ORB-SLAM3’s architecture,  
+   achieving higher efficiency on embedded or low-power platforms without compromising accuracy.
+4. **Uniformity Indicator \(W_t\):**  
+   Quantifies feature point distribution quality to monitor front-end stability during SLAM operation.
+
+---
+
+### ⚙️ Running Instructions
+
+The running process follows the same structure as **ORB-SLAM3**,  
+and the modified system remains fully compatible with its datasets and interfaces.
 # ORB-SLAM3 超详细注释
-
-![DEMO](https://github.com/electech6/ORB_SLAM3_detailed_comments/blob/master/demo.gif)
-
-独家视频课程《VIO灭霸：ORB-SLAM3公式推导+源码逐行解析+算法改进》！ [点击进入官网](https://cvlife.net/)
-
-点击进入 [小六的机器人SLAM学习圈](https://mp.weixin.qq.com/s?__biz=MzIxOTczOTM4NA==&mid=2247567299&idx=1&sn=2d6b673b6d5e396bd87ec2a28cd3d27d&chksm=97d52254a0a2ab42ff833b5fa733f2213a1ad1ec8ebdb199d96c237aa4cb21fe8e05cc77db8a#rd)，4500+人都在这里交流！
-
-----
-# ORB-SLAM3
-
 ### V1.0, December 22th, 2021
 **Authors:** Carlos Campos, Richard Elvira, Juan J. Gómez Rodríguez, [José M. M. Montiel](http://webdiis.unizar.es/~josemari/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/).
 
