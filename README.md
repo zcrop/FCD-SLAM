@@ -1,4 +1,5 @@
 # FCD_SLAM
+**This code and the associated datasets correspond to the methods and experiments described in our manuscript currently under review at The Visual Computer (Springer). The repository is provided to ensure transparency, reproducibility, and proper attribution.**
 **FCD-VSLAM** is an enhanced and lightweight front-end framework based on **ORB-SLAM3**,  
 designed for **resource-constrained indoor environments**.  
 It introduces adaptive feature selection and descriptor optimization modules to improve robustness,  
